@@ -1,0 +1,132 @@
+{
+  "name": "Studio Film — Publicité produit",
+  "version": 1,
+  "styles": [
+    {
+      "id": "pub-studio-premium",
+      "name": "Studio produit premium",
+      "desc": "Podium, lumière rasante, fond dégradé, luxe",
+      "prompt": "premium product advertising illustration, seamless studio backdrop with soft gradient, sculpted hard-to-soft light with a clean rim highlight, controlled reflections on the surface, pristine materials, crisp commercial finish, high-end campaign look, no text",
+      "swatch": "linear-gradient(135deg,#e6c687,#5b4a2f)",
+      "icon": "◆"
+    },
+    {
+      "id": "pub-packshot-3d",
+      "name": "Packshot 3D",
+      "desc": "Rendu 3D studio, formes rondes, mats",
+      "prompt": "clean 3D packshot render, studio HDRI lighting, soft contact shadow, matte and satin materials, perfectly centered hero object, glossy product visualization, minimal background, ultra sharp details, no text",
+      "swatch": "linear-gradient(135deg,#9fd8ff,#2b5f8f)",
+      "icon": "⬡"
+    },
+    {
+      "id": "pub-lifestyle-solaire",
+      "name": "Lifestyle solaire",
+      "desc": "Maison, lumière de fin de journée, matière vraie",
+      "prompt": "sunlit lifestyle product photography illustration, golden hour window light, real materials and textures, lived-in modern interior, warm natural atmosphere, shallow depth of field, authentic and aspirational, no text",
+      "swatch": "linear-gradient(135deg,#ffd9a0,#c2724a)",
+      "icon": "☀"
+    },
+    {
+      "id": "pub-graphique-prix",
+      "name": "Graphique prix",
+      "desc": "Aplats graphiques, blocks de couleur, pop",
+      "prompt": "bold flat graphic advertising illustration, large geometric color blocks, dynamic diagonal composition, limited punchy palette, screen-print texture, modern e-commerce banner aesthetic, clean negative space, no text",
+      "swatch": "linear-gradient(135deg,#c6ff00,#ff2e88)",
+      "icon": "▦"
+    }
+  ],
+  "shots": {
+    "scales": [
+      "hero shot, the product centred and filling the lower two thirds of the vertical frame",
+      "macro close-up on the product surface texture and detail",
+      "medium three-quarter shot with the product angled to show depth",
+      "top-down flat lay arrangement, items evenly spaced"
+    ],
+    "angles": [
+      "slightly above eye level, looking gently down at the product",
+      "straight-on frontal angle, perfectly symmetrical",
+      "low angle at product level, hero perspective",
+      "45 degree three-quarter angle, classic commercial look"
+    ],
+    "postures": [
+      "a hand entering the frame, lifting the product toward the camera",
+      "a hand resting beside the product, fingers relaxed",
+      "the product standing alone, perfectly balanced",
+      "two hands holding the product, presenting it to the viewer"
+    ],
+    "gazes": [
+      "no face in frame, the product is the subject",
+      "the user looking down at the product with visible delight",
+      "the user glancing at the camera while holding the product",
+      "the user looking past the product toward the viewer"
+    ],
+    "micro": [
+      "fingertips pressing a soft surface, visible tension",
+      "clean dry hands, short nails, no jewellery",
+      "a thumb wiping the surface clean",
+      "skin catching the light on the knuckles"
+    ]
+  },
+  "beats": [
+    {
+      "shot": "hero shot, product centred, held two seconds",
+      "decor": "a clean studio podium on a seamless backdrop",
+      "light": "sculpted key light with a bright rim highlight",
+      "expr": "pristine, untouched surface",
+      "desc": "Le probleme que tout le monde evite.",
+      "narr": "On l'a tous eu."
+    },
+    {
+      "shot": "macro close-up on the product surface",
+      "decor": "the detail that nobody usually sees",
+      "light": "raking light revealing the material",
+      "expr": "perfect finish, flawless surface",
+      "desc": "La preuve, en gros plan.",
+      "narr": "Regardez de tres pres."
+    },
+    {
+      "shot": "medium three-quarter shot with a hand lifting the product",
+      "decor": "a real, lived-in environment",
+      "light": "warm window light from the side",
+      "expr": "hand relaxed, confident grip",
+      "desc": "Il change la donne.",
+      "narr": "Un geste, et c'est fini."
+    },
+    {
+      "shot": "top-down flat lay, items evenly spaced",
+      "decor": "a tidy surface with one strong object",
+      "light": "even soft light, gentle shadows",
+      "expr": "orderly, minimal",
+      "desc": "Trois arguments, pas plus.",
+      "narr": "Simple. Efficace. Sans arnaque."
+    },
+    {
+      "shot": "straight-on frontal shot, symmetrical",
+      "decor": "the product alone on a clean backdrop",
+      "light": "crisp commercial lighting",
+      "expr": "proud, complete",
+      "desc": "A vous de jouer.",
+      "narr": "Essayez-le aujourd'hui."
+    }
+  ],
+  "rules": {
+    "scenario": "STRUCTURE COMMERCIALE EN 5 TEMPS : 1) le probleme, une phrase que tout le monde a deja vecue ; 2) la bascule, le produit arrive ; 3) la preuve, un detail concret et verifiable ; 4) le benefice, ce que ca change concretement ; 5) l'appel a l'action, direct et sans pression. Concrets, jamais de superlatif vide, jamais de fausse urgence, jamais de comparaison avec un concurrent nomme. Le produit ou l usage doit etre visible dans au moins une case sur deux.",
+    "case": "COMMERCIAL PRODUCT FRAMING — the product must be the clear hero of the frame: fully in focus, undistorted, never cropped awkwardly, never hidden by a hand. Controlled studio lighting with a clean specular highlight and a soft contact shadow. Keep a calm, uncluttered lower zone for the caption overlay. The artwork stays image-only: absolutely no text, no letters, no logos, no labels, no price tag, no watermark, no speech bubbles.",
+    "character": "USER PORTRAIT — when a hand or a user appears, keep realistic anatomy, clean short nails, no visible jewellery, no logo, natural skin texture and true-to-life proportions. Keep the same hand, the same skin tone, the same outfit sleeve and the same lighting direction across every scene, so the product demonstration stays coherent through the whole sequence.",
+    "film": "FILM PUBLICITAIRE VERTICAL 9:16. Une idee par scene, 2 a 3 secondes, rythme rapide et regulier. Scene 1 = probleme, scene 2 = revelation du produit, scene 3 = preuve, scene 4 = benefice, scene finale = appel a l'action. Voix off de 12 a 22 mots, ton simple et direct. Ne jamais afficher de prix ni de texte dans l'image."
+  },
+  "svg": {
+    "patterns": [
+      {
+        "id": "pub-degrade-doux",
+        "label": "Dégradé premium",
+        "defs": "<pattern id=\"pub-degrade-doux\" width=\"240\" height=\"240\" patternUnits=\"userSpaceOnUse\"><rect width=\"240\" height=\"240\" fill=\"none\"/><circle cx=\"120\" cy=\"120\" r=\"120\" fill=\"#e6c687\" fill-opacity=\"0.06\"/></pattern>"
+      },
+      {
+        "id": "pub-maillage-premium",
+        "label": "Maillage produit",
+        "defs": "<pattern id=\"pub-maillage-premium\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 60L60 0\" stroke=\"#ffffff\" stroke-opacity=\"0.05\" stroke-width=\"1\"/></pattern>"
+      }
+    ]
+  }
+}
