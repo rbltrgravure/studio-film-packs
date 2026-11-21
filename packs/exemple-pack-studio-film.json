@@ -1,0 +1,91 @@
+{
+  "name": "Studio Film — Pack de démonstration",
+  "version": 1,
+  "styles": [
+    {
+      "id": "gh-neon-noir",
+      "name": "Néon noir",
+      "desc": "Cyberpunk saturé, pluie, halos magenta",
+      "prompt": "neon noir cyberpunk comic illustration, rain-soaked street, magenta and cyan rim light, deep blacks, high contrast, halftone shading, dramatic low angle",
+      "swatch": "#4CC9FF",
+      "icon": "✦"
+    },
+    {
+      "id": "gh-carnet-jaune",
+      "name": "Carnet jaune",
+      "desc": "Aplats Baumans, encre pleine, papier crème",
+      "prompt": "baumans flat colour comic illustration, bold ink outlines, warm cream paper texture, limited palette of yellow ochre and deep green, clean negative space",
+      "swatch": "#E6C687",
+      "icon": "❋"
+    }
+  ],
+  "shots": {
+    "scales": [
+      "extreme wide shot, subject tiny in a vast empty frame, strong negative space",
+      "overhead top-down shot, subject seen from directly above",
+      "dutch angle, horizon tilted 20 degrees"
+    ],
+    "angles": [
+      "worm's-eye view from the floor looking up",
+      "over-the-shoulder shot from behind the character"
+    ],
+    "postures": [
+      "mid-stride, one foot planted, shoulders turning",
+      "leaning back against a wall, arms crossed"
+    ],
+    "gazes": [
+      "looking straight into the lens, unblinking",
+      "looking away, out of frame, distant gaze"
+    ],
+    "micro": [
+      "single bead of sweat on the temple",
+      "eyelid lowered, half-smile suppressed"
+    ]
+  },
+  "beats": [
+    {
+      "shot": "the reveal, held two seconds, slow push-in",
+      "decor": "a flickering shop sign behind the subject",
+      "light": "magenta rim light from the left",
+      "expr": "stunned, mouth slightly open",
+      "desc": "La révélation tombe sans un mot.",
+      "narr": "Tout bascule en une seconde."
+    },
+    {
+      "shot": "low angle hero shot, held three seconds",
+      "decor": "volumetric light through drifting dust",
+      "light": "hard backlight, blown highlights",
+      "expr": "determined, jaw set",
+      "desc": "Le personnage decide de passer a l'action.",
+      "narr": "Plus de retour en arriere."
+    },
+    {
+      "shot": "tight close-up on the eyes, static",
+      "decor": "background fully blurred",
+      "light": "soft frontal key light",
+      "expr": "quiet resolve, glistening eyes",
+      "desc": "Un regard qui decide.",
+      "narr": "Et voila."
+    }
+  ],
+  "rules": {
+    "scenario": "Rythme rapide : une phrase par beat, jamais plus de 14 mots. Ne jamais utiliser de tirets cadratins. Toujours finir sur une question ou une injonction.",
+    "case": "Grain argentique leger et tres léger au premier plan. Le sujet occupe le tiers central. Fond volontairement sobre pour laisser respirer la surimpression du texte. Ne jamais ecrire de texte lisible dans l'image.",
+    "character": "Gros plan visage aux trois quarts, fond neutre sombre, lumiere douce laterale. Le meme cadrage et la meme lumiere pour tous les portraits d'un meme personnage, afin de garantir la consistance.",
+    "film": "Une scene = une idee. Duree advisee : 2 a 4 secondes. Alterner un plan large et un gros plan. Prevoir toujours un plan de transition (detail abstrait ou main)."
+  },
+  "svg": {
+    "patterns": [
+      {
+        "id": "gh-grid",
+        "label": "Grille technique",
+        "defs": "<pattern id=\"gh-grid\" width=\"80\" height=\"80\" patternUnits=\"userSpaceOnUse\"><path d=\"M80 0H0V80\" fill=\"none\" stroke=\"#ffffff\" stroke-opacity=\"0.12\"/></pattern>"
+      },
+      {
+        "id": "gh-halftone",
+        "label": "Trame tramée",
+        "defs": "<pattern id=\"gh-halftone\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><circle cx=\"3\" cy=\"3\" r=\"1.6\" fill=\"#ffffff\" fill-opacity=\"0.16\"/><circle cx=\"9\" cy=\"9\" r=\"1.6\" fill=\"#ffffff\" fill-opacity=\"0.16\"/></pattern>"
+      }
+    ]
+  }
+}
