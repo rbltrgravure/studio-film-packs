@@ -1,0 +1,132 @@
+{
+  "name": "Studio Film — Storyboard viral (9:16)",
+  "version": 1,
+  "styles": [
+    {
+      "id": "sv-storyboard-express",
+      "name": "Storyboard express",
+      "desc": "Trait rapide, aplats francs, énergie clip social",
+      "prompt": "vertical 9:16 storyboard illustration, energetic comic ink linework, bold flat colors, punchy graphic shadows, exaggerated expressive poses, editorial social media look, high contrast, crisp rendering, no text",
+      "swatch": "linear-gradient(135deg,#c6ff00,#4cc9ff)",
+      "icon": "▶"
+    },
+    {
+      "id": "sv-bd-urbain",
+      "name": "BD urbain",
+      "desc": "Encre épaisse, lavis dramatic, ville la nuit",
+      "prompt": "urban graphic novel illustration, heavy black ink contours, dramatic ink wash shadows, saturated magenta and amber palette, concrete and neon city background, cinematic low angle, professional comic book finish, no text",
+      "swatch": "linear-gradient(135deg,#ff2e88,#7a3b1d)",
+      "icon": "✳"
+    },
+    {
+      "id": "sv-neon-vertical",
+      "name": "Néon vertical",
+      "desc": "Cyberpunk, reflets au sol, ambiance de clip",
+      "prompt": "neon cyberpunk vertical illustration, glowing cyan and violet rim light, wet reflective floor, volumetric haze, deep blacks, music video aesthetic, sharp graphic edges, no text",
+      "swatch": "linear-gradient(135deg,#4cc9ff,#7b2ff7)",
+      "icon": "◈"
+    },
+    {
+      "id": "sv-papier-decoupe",
+      "name": "Papier découpé",
+      "desc": "Couches de papier, ombres douces, artisanal",
+      "prompt": "paper cutout illustration, layered matte paper shapes, soft drop shadows, warm cream and ochre palette, handcrafted diorama depth, delicate paper grain, gentle lighting, no text",
+      "swatch": "linear-gradient(135deg,#e6c687,#4a3728)",
+      "icon": "❋"
+    }
+  ],
+  "shots": {
+    "scales": [
+      "tight vertical crop on the face, head placed on the upper third of the 9:16 frame",
+      "medium shot from the waist up, subject centred on the vertical axis",
+      "extreme close-up on a single detail, filling the entire vertical frame",
+      "wide vertical shot, subject small at the bottom, huge empty space above"
+    ],
+    "angles": [
+      "slight low angle, camera at hip height looking up",
+      "overhead top-down shot looking straight down",
+      "over-the-shoulder from behind, subject facing away",
+      "camera rolled slightly, dynamic diagonal horizon"
+    ],
+    "postures": [
+      "lunging forward into the frame, one arm extended",
+      "twisting mid-step, shoulders turned toward the camera",
+      "crouched low, weight forward, ready to move",
+      "standing tall, arms crossed, weight resting on one hip"
+    ],
+    "gazes": [
+      "looking straight down the lens, urgent and locked on",
+      "glancing over the shoulder, caught off guard",
+      "head tilted back, eyes closed, exhaling",
+      "looking past the camera at something off screen"
+    ],
+    "micro": [
+      "jaw tight, lips pressed into a thin line",
+      "one eyebrow raised, half a smirk",
+      "eyes wide, pupils dilated, startled",
+      "brow furrowed with a deep vertical crease"
+    ]
+  },
+  "beats": [
+    {
+      "shot": "medium shot, subject entering the frame, held one second",
+      "decor": "a fluorescent corridor with a lit doorway behind",
+      "light": "hard backlight from the doorway",
+      "expr": "curious, head tilted",
+      "desc": "{C1} entre dans {S} sans prévenir.",
+      "narr": "Personne ne l'attendait."
+    },
+    {
+      "shot": "tight crop on the face, held two seconds",
+      "decor": "blurred corridor lights behind",
+      "light": "neon cyan rim from the left",
+      "expr": "frozen, lips parted",
+      "desc": "Le regard change.",
+      "narr": "Tout vient de basculer."
+    },
+    {
+      "shot": "wide vertical shot, subject small at the bottom",
+      "decor": "an open void with a single light source",
+      "light": "single top light, long shadow",
+      "expr": "small, overwhelmed",
+      "desc": "{S} devient immense.",
+      "narr": "On estminuscule."
+    },
+    {
+      "shot": "low angle, subject striding forward, held two seconds",
+      "decor": "dust in the air, broken floor",
+      "light": "magenta backlight",
+      "expr": "determined, jaw set",
+      "desc": "Alors on avance.",
+      "narr": "Plus de retour en arriere."
+    },
+    {
+      "shot": "extreme close-up on the eyes, static",
+      "decor": "background fully blurred",
+      "light": "soft frontal key light",
+      "expr": "quiet resolve, glistening eyes",
+      "desc": "Un regard qui decide.",
+      "narr": "Et voila."
+    }
+  ],
+  "rules": {
+    "scenario": "STRUCTURE VIRALE EN 5 TEMPS : 1) une accroche courte qui surprend, 8 mots maximum ; 2) le contexte en une seule phrase ; 3) la bascule, la phrase la plus forte ; 4) la chute, une image qui marque ; 5) une question ou une injonction finale. Phrases courtes, verbes directs, aucun jargon, aucun chiffre non source. Chaque case se lit seule en moins de 3 secondes.",
+    "case": "VERTICAL 9:16 COMPOSITION — keep the subject inside the central vertical band, head near the upper third, and leave clean empty space above and below for the caption overlay. One clear focal point, strong depth separation between foreground and background. The artwork stays image-only: absolutely no text, no letters, no logos, no watermark, no speech bubbles. Freeze the action at its most readable instant, mid-movement, with energetic diagonal energy.",
+    "character": "REFERENCE PORTRAIT — half-body vertical portrait, neutral dark background, soft key light from the side, face fully visible, sharp and unobstructed, shoulders squared to the camera. Keep the exact same lighting setup, the same crop and the same background for every portrait of the same character, so the identity stays perfectly consistent across the sequence.",
+    "film": "FILM VERTICAL 9:16. Une idee par scene, 2 a 4 secondes. Alterner un plan large et un gros plan. Reserver une scene de transition (detail abstrait, main, objet). Voix off de 12 a 22 mots, ton direct et vivant, phrases courtes. Toujours finir sur une question ou une injonction. Ne jamais repeter un cadrage ni un decor d'une scene a l'autre."
+  },
+  "svg": {
+    "patterns": [
+      {
+        "id": "sv-grille-verticale",
+        "label": "Grille verticale",
+        "defs": "<pattern id=\"sv-grille-verticale\" width=\"120\" height=\"120\" patternUnits=\"userSpaceOnUse\"><path d=\"M120 0H0V120\" fill=\"none\" stroke=\"#c6ff00\" stroke-opacity=\"0.10\"/></pattern>"
+      },
+      {
+        "id": "sv-trame",
+        "label": "Trame comic",
+        "defs": "<pattern id=\"sv-trame\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"3.5\" cy=\"3.5\" r=\"1.8\" fill=\"#ffffff\" fill-opacity=\"0.14\"/><circle cx=\"10.5\" cy=\"10.5\" r=\"1.8\" fill=\"#ffffff\" fill-opacity=\"0.14\"/></pattern>"
+      }
+    ]
+  }
+}
