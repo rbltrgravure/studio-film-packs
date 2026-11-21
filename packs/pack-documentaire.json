@@ -1,0 +1,132 @@
+{
+  "name": "Studio Film — Reportage documentaire",
+  "version": 1,
+  "styles": [
+    {
+      "id": "doc-photo-reportage",
+      "name": "Photo reportage",
+      "desc": "Photographie de terrain, lumière naturelle, grain 35 mm",
+      "prompt": "documentary photojournalism illustration, available light, natural uneven lighting, 35mm film grain, candid unstaged moment, muted realistic colors, shallow depth of field, handheld framing, serious editorial tone, no text",
+      "swatch": "linear-gradient(135deg,#9aa4b2,#2b3138)",
+      "icon": "◉"
+    },
+    {
+      "id": "doc-encre-realiste",
+      "name": "Encre réaliste",
+      "desc": "Plume et lavis, noir et blanc, trait de journal",
+      "prompt": "realistic ink reportage illustration, fine pen hatching, cross-hatching shadows, monochrome greyscale palette, scratchboard texture, sober newspaper column mood, precise observational drawing, no text",
+      "swatch": "linear-gradient(135deg,#d9d4c8,#3b3b3b)",
+      "icon": "▤"
+    },
+    {
+      "id": "doc-archive-35mm",
+      "name": "Archive 35 mm",
+      "desc": "Archive 35 mm, contre-jour, ambiance documentaire",
+      "prompt": "vintage 35mm archival film look, harsh backlight and silhouettes, dust and scratches on the negative, faded warm tint, street level camera height, raw and unpolished, historical documentary footage mood, no text",
+      "swatch": "linear-gradient(135deg,#e0b070,#6b4a2a)",
+      "icon": "⌾"
+    },
+    {
+      "id": "doc-graphic-noir",
+      "name": "BD noir social",
+      "desc": "Encre lourde, contraste social, ambiance urbaine",
+      "prompt": "social noir graphic novel illustration, heavy black shadows, cold steel blue and concrete grey palette, hard single light source, urban environment, tense stillness, masterful ink rendering, no text",
+      "swatch": "linear-gradient(135deg,#6cc9ff,#1b2733)",
+      "icon": "◐"
+    }
+  ],
+  "shots": {
+    "scales": [
+      "medium shot at eye level, subject placed off centre",
+      "close-up on hands and working tools",
+      "wide documentary framing, subject embedded in the environment",
+      "tight close-up on the face, shallow focus, background unreadable"
+    ],
+    "angles": [
+      "eye-level handheld angle, slightly tilted",
+      "low angle from a seated position",
+      "high angle looking down over the shoulder",
+      "static side-on profile framing"
+    ],
+    "postures": [
+      "leaning over a table, hands busy, shoulders rounded",
+      "standing still with arms hanging, weight on one leg",
+      "walking through a doorway mid-stride, seen from behind",
+      "seated, forearms on knees, head lowered"
+    ],
+    "gazes": [
+      "looking away from the camera, absorbed in the task",
+      "looking down at the hands",
+      "meeting the camera with a tired, unguarded expression",
+      "eyes fixed on a distant point outside the frame"
+    ],
+    "micro": [
+      "furrowed brow, sweat at the temple",
+      "lips pressed, jaw tense with effort",
+      "eyes slightly narrowed against the light",
+      "a faint, tired half-smile"
+    ]
+  },
+  "beats": [
+    {
+      "shot": "wide establishing framing, held two seconds",
+      "decor": "an ordinary workplace at opening hour",
+      "light": "flat overcast daylight from a window",
+      "expr": "neutral, absorbed",
+      "desc": "Chaque matin, meme egalite.",
+      "narr": "La machine tourne. Les gens aussi."
+    },
+    {
+      "shot": "close-up on the hands, static",
+      "decor": "worn tools and scratched surfaces",
+      "light": "single hard side light",
+      "expr": "hands steady, fingers stained",
+      "desc": "Les mains d'abord.",
+      "narr": "Le geste repete, des milliers de fois."
+    },
+    {
+      "shot": "medium shot, subject in profile",
+      "decor": "a narrow corridor with peeling paint",
+      "light": "backlit from a doorway",
+      "expr": "tired, listening",
+      "desc": "« On ne voit que le resultat. »",
+      "narr": "C'est ce qu'on raconte a la television."
+    },
+    {
+      "shot": "wide shot, subject embedded in the crowd",
+      "decor": "a busy public space, blurred passers-by",
+      "light": "patchy sunlight between buildings",
+      "expr": "part of the mass, anonymous",
+      "desc": "Des milliers de personnes, une seule histoire.",
+      "narr": "Chacun a son chiffre. Personne ne l'a vu."
+    },
+    {
+      "shot": "tight close-up on the face, static",
+      "decor": "background fully defocused",
+      "light": "soft window light from the side",
+      "expr": "quiet resolve, direct gaze",
+      "desc": "Alors on regarde de pres.",
+      "narr": "C'est le seul endroit ou la reponse existe."
+    }
+  ],
+  "rules": {
+    "scenario": "ANGLE DOCUMENTAIRE : une seule personne a la fois, jamais de celebrite, jamais de stereotype. Chaque fait doit etre verifiable et attribue a une source reelle ou clairement presente comme une estimation. Ton sobre, sans dramatisation, sans suspense artificiel. Structure en 5 temps : le constat, le detail, le temoignage, la donnee, l'ouverture. Ne jamais inventer de citation, de chiffre ni de nom.",
+    "case": "DOCUMENTARY FRAMING — eye-level accessible camera, natural available light, realistic proportions and truthful skin texture, no beautification, no airbrushing, no glamour retouch. Keep the frame observational: the subject must be caught inside the environment, not posed against it. Leave breathing room for the caption overlay. The artwork stays image-only: absolutely no text, no letters, no logos, no watermark, no speech bubbles.",
+    "character": "CANDID PORTRAIT — half-body portrait, plain real environment behind rather than a studio backdrop, soft window light, face at eye level, expression neutral and unguarded, visible age and skin texture. Keep the same framing, the same light direction and the same background for every portrait of the same person, so the identity stays consistent across the sequence.",
+    "film": "FILM DOCUMENTAIRE VERTICAL 9:16. Une information par scene, 2 a 4 secondes. Commencer par le contexte, finir sur une question ouverte. Voix off de 12 a 22 mots, ton sobre et factuel, jamais de pathos. Prevoir une scene de detail (geste, materiau, texture) pour rendre la scene tangible. Ne jamais montrer de texte, de logo ni de citation ecran."
+  },
+  "svg": {
+    "patterns": [
+      {
+        "id": "doc-grain",
+        "label": "Grain argentique",
+        "defs": "<pattern id=\"doc-grain\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><circle cx=\"2\" cy=\"2\" r=\"0.9\" fill=\"#ffffff\" fill-opacity=\"0.10\"/><circle cx=\"7\" cy=\"6\" r=\"0.7\" fill=\"#ffffff\" fill-opacity=\"0.08\"/><circle cx=\"4\" cy=\"9\" r=\"0.6\" fill=\"#000000\" fill-opacity=\"0.12\"/></pattern>"
+      },
+      {
+        "id": "doc-hachures",
+        "label": "Hachures d'encre",
+        "defs": "<pattern id=\"doc-hachures\" width=\"16\" height=\"16\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 16L16 0\" stroke=\"#ffffff\" stroke-opacity=\"0.07\" stroke-width=\"1.2\"/></pattern>"
+      }
+    ]
+  }
+}
